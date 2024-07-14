@@ -1,0 +1,23 @@
+.btn{
+  background-color: #0193dd;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btn:hover {
+    background-color: #0193dd;
+    color: white;
+  }
+
+#grad1 {
+ 
+  background: rgb(204,235,217);
+  background: linear-gradient(128deg, rgba(204,235,217,1) 0%, rgba(235,246,246,1) 99%);
+  }
