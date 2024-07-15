@@ -4262,7 +4262,7 @@ fieldset:disabled .btn {
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
-  color: var(--bs-accordion-btn-color);
+  color: #0194ddee;
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
   border: 0;
