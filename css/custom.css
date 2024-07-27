@@ -374,7 +374,11 @@
   cursor: pointer;
   padding: 15px;
   border-radius: 15px;
-  margin-right: 10%;
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px;  /* Adjust as needed */
+  z-index: 1000; /* Ensure it stays on top */
+ 
 }
 
 /* toggle button */
@@ -501,11 +505,13 @@ input:checked + .slider::before {
   justify-content: space-around;
   gap: 15px; /* Add space between the icons */
   margin-right: 250px;
+  
 }
 .social-icons a {
   color: #5c5959; /* Change to desired color */
   font-size: 24px; /* Adjust size as needed */
   text-decoration: none;
+ 
 }
 .social-icons a:hover {
   color: #007bff; /* Change hover color if desired */
